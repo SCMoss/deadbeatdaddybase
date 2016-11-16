@@ -20,7 +20,7 @@ var port = process.env.PORT || 8000;
 
 app.use(bodyParser.json());
 app.use(express.static(path.join('public')));
-app.use('/deadbeat', require('/routes/deadbeat-routes')); /*WHAT GOES IN THE FIRST '' PATHWAY????? DONT REMEMBER */
+app.use('/deadbeat', require('./routes/deadbeat-routes')); /*WHAT GOES IN THE FIRST '' PATHWAY????? DONT REMEMBER */
 
 
 

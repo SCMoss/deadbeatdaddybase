@@ -12,4 +12,4 @@ var deadbeatRouter = express.Router(); //<============ THE METHOD ON THE OBJECT 
 var DeadbeatData = require('../models/deadbeat');
 
 
-module.exports = deadebeatRouter;
+module.exports = deadbeatRouter;
