@@ -24,7 +24,7 @@ app.use('/deadbeat', require('./routes/deadbeat-routes')); /*WHAT GOES IN THE FI
 
 
 
-mongoose.connect('mongodb://localhost/deadbeat', function () {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/deadbeat', function () {
     console.log('You are now connected to the database');
 });
 
