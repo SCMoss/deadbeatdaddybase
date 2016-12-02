@@ -2,7 +2,7 @@
 //
 //Deadbeat Daddybase: The Ultimate Database of No-good Fathers!
 //
-//V School Project Fall/Winter 2016
+// V School Project Fall/Winter 2016
 
 //Part 1 : Express Webserver
 

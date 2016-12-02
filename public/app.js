@@ -1,2 +1,4 @@
-var app = angular.module('DeadbeatDB', []);
-app.config(['$routeProvider', function ($routeProvider)])
+var app = angular.module('DeadbeatDB', ['ngRoute']);
+app.config(['$routeProvider', function ($routeProvider) {
+
+}]);
